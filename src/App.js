@@ -21,11 +21,13 @@ function App() {
 			<button onClick={handleClick} > Add Todo</button>
 		</div>
 		<div>
+			 <h1>todo App</h1>
 			<ol>
 				{todo.map(todos => (
 					<li>{todos}</li>
 				))}
 			</ol>
+			
 		</div>
 		</div>
 		
